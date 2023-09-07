@@ -37,6 +37,6 @@ Here's a screenshot of my completed task:
 <img width="1440" alt="Screenshot 2023-09-07 at 13 03 47" src="https://github.com/chiomanwocha/frontend-page-creation/assets/77916165/23e2fe71-fcb5-4c0d-a077-c8c9ba25f89f">
 
 
-[View the Live Demo](VERCEL_URL)
+[View the Live Demo](https://frontend-page-creation-three.vercel.app/)
 
 ---
