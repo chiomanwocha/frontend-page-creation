@@ -1,0 +1,123 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.body-wrapper {
+    width: 60vw;
+    margin: 5vw auto;
+    border: 1px solid transparent;
+    font-size: 17px;
+}
+
+.profile-header {
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 40px;
+    border-radius: 8px 8px 0 0;
+    text-transform: capitalize;
+    font-size: 32px;
+    min-height: 10vw;
+}
+
+.profile-header span {
+    font-weight: 600;
+}
+
+.profile-details {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0 1px 1px 1px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.name-and-track {
+    text-align: center;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(2px 1px 5px black);
+    margin-top: -15vh;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.slack-username{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+}
+
+.slack-track{
+    font-weight: 500;
+    color: rgb(80, 80, 80);
+}
+
+.github-details {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.github-details a{
+    text-decoration: none;
+    color:rgb(0, 62, 176)
+}
+
+.github-details a:hover{
+    text-decoration: underline;
+}
+
+.date-bubbles-wrapper{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.date-bubbles {
+    border: 2px solid #DCEDCB;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #f6faf2;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.date-bubbles p{
+    font-weight: 600;
+}
+
+.date-bubbles:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1024px) {
+    .image-container {
+        margin-top: 0;
+    }
+    .date-bubbles-wrapper{
+        gap: 20px;
+    }
+    .body-wrapper {
+        width: 90vw;
+    }
+}

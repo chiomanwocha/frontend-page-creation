@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Page Creation with Specific Elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <div class="profile-header">
+        <p>
+          my <br />
+          <span>profile</span>
+        </p>
+      </div>
+      <div class="profile-details">
+        <div class="image-container">
+          <image
+            src="https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/354023859_2388706104641515_4626162731966475370_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeFgXrKw1JumMbfUEy-fqyXrJWIDpUAYAn4lYgOlQBgCfrCe2VuRZnDKF3HXV7XVmEfD2icVBpAEkQgpK_3vnzsl&_nc_ohc=Z-iXaE1ryt0AX9C6vdg&_nc_ht=scontent-los2-1.xx&oh=00_AfDCtYxPlpz19mMihjT14wUNk3MavKNp4kKxPU3PyPKY9w&oe=64FF2588"
+            alt="nwocha"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+        <div class="name-and-track">
+          <p data-testid="slackUserName" class="slack-username">nwocha</p>
+          <p data-testid="myTrack" class="slack-track">Frontend</p>
+        </div>
+        <div class="github-details">
+          <div>
+            <img src="/github.svg" />
+          </div>
+          <a
+            href="https://github.com/chiomanwocha/frontend-page-creation"
+            target="_blank"
+            data-testid=“githubURL”
+            >chiomanwocha</a
+          >
+        </div>
+        <div class="date-bubbles-wrapper">
+          <div class="date-bubbles">
+            <p>Current Day of the Week</p>
+            <span
+              data-testid="currentDayOfTheWeek"
+              id="currentDayOfTheWeek"
+            ></span>
+          </div>
+          <div class="date-bubbles">
+            <p>Current UTC Time(in ms)</p>
+            <span data-testid="currentUTCTime" id="currentUTCTime"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
