@@ -34,7 +34,8 @@ In this task, I successfully created a frontend web page that showcases specific
 ## Screenshot of My Work
 
 Here's a screenshot of my completed task:
-<img width="1440" alt="Screenshot 2023-09-07 at 13 03 47" src="https://github.com/chiomanwocha/frontend-page-creation/assets/77916165/23e2fe71-fcb5-4c0d-a077-c8c9ba25f89f">
+<img width="1350" alt="Screenshot 2023-09-08 at 09 54 32" src="https://github.com/chiomanwocha/frontend-page-creation/assets/77916165/92fc014a-f1d8-4126-ac07-84d67894ebe3">
+
 
 
 [View the Live Demo](https://frontend-page-creation-three.vercel.app/)
